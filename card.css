@@ -29,16 +29,26 @@ body {
   border-radius: 15px;
 }
 
-.victor {
+/* .victor {
+  box-sizing: border-box;
   border-radius: 50%;
   position: absolute;
   top: 113px;
-  left: 135px;
+  left: 130px;
   display: inline-block;
+  border: solid 5px white;
+} */
+
+.victor {
+  border-radius: 50%;
+  transform: translateY(50%);
   border: solid 5px white;
 }
 
 .image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   grid-area: image;
   background: url("./images/bg-pattern-card.svg");
   background-size: cover;
