@@ -104,14 +104,6 @@ p {
     grid-template-columns: 300px;
     grid-template-rows: 140px 140px 60px;
   }
-  .victor {
-    border-radius: 50%;
-    position: absolute;
-    top: 113px;
-    left: 105px;
-    display: inline-block;
-    border: solid 5px white;
-  }
 
   p {
     margin-top: 0;
